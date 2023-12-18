@@ -1,0 +1,529 @@
+/* BACKGROUND PICS + HOMEPAGE STYLING*/
+body {
+  margin: 0; padding: 0; font-family: "Libre Franklin", sans-serif;
+}
+
+.background {
+  margin: 0; padding: 0; background-image: url('../images/background.png'); background-repeat: no-repeat; background-size: cover; height: 100vh;
+}
+
+.titles {
+  display: flex; flex-direction: column; justify-content: center;
+}
+
+.background1 {
+  width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; filter: blur(10px);
+}
+
+.homepage-cards {
+  display: flex; flex-direction: row; justify-content: space-between; margin: 300px 100px;
+}
+
+.homepage-card {
+  width: 300px; height: 350px; border-radius: 24px; margin: 0px;
+}
+
+.card-banner {
+  background: #E9E8E8; width: 100%; text-align: center; padding: 15px 0; margin-top: 230px;
+}
+
+.card-banner:hover {
+  background-color: #c2c2c2;
+}
+
+a {
+  text-decoration: none; color: black; font-family: "Libre Franklin", sans-serif;
+}
+
+.bg1 {
+  background-image: url("../images/HD1.jpg"); background-size: cover;
+}
+
+.bg2 {
+  background-image: url("../images/RK3.jpg"); background-size: cover;
+}
+
+.bg3 {
+  background-image: url("../images/SF1.jpg"); background-size: cover;
+}
+
+
+
+
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 1000px) {
+
+  .background {
+    height: 300vh;
+  }
+  
+  .homepage-cards {
+    flex-direction: column; align-items: center; margin: 30vh 0px;
+  }
+
+  .homepage-card {
+    border-radius: 12px; margin-bottom: 50px; width: 90%; height: 50vh;
+  }
+
+  .card-banner {
+    margin-top: 35vh;
+  }
+
+  .logo {
+    width: 15%; height: auto; left: 5%; top: 2%; position: absolute;
+  }
+  
+  .HPh1 {
+    font-size: 10vw; left: 0%; top: 8%; position: absolute;
+  }  
+
+  .HPh2 {
+    font-size: 4vw; left: 32%; top: 22%; position: absolute;
+  }
+
+  .titles {
+    display: flex; flex-direction: column; justify-content: center;
+  }
+
+}
+
+
+
+
+/* HOMEPAGE TEXT STYLE */
+.HPh1 {
+  left: 30%; top: 15%; position: absolute; text-align: center; color: black; font-size: 4vw; font-family: "Libre Franklin", sans-serif; font-weight: 700; 
+}
+
+.HPh2 {
+  left: 42%; top: 25%; position: absolute; text-align: center; color: black; font-size: 2vw; font-family: "Libre Franklin", sans-serif; font-weight: 400; 
+}
+
+.HPh3left {
+  left: 15%; top: 69%; position: absolute; text-align: center; color: black; font-size: 25px; font-family: "Libre Franklin", sans-serif; font-weight: 700; 
+}
+
+.HPh3center {
+  left: 46%; top: 69%; position: absolute; text-align: center; color: black; font-size: 25px; font-family: "Libre Franklin", sans-serif; font-weight: 700; 
+}
+
+.HPh3right {
+  left: 76%; top: 69%; position: absolute; text-align: center; color: black; font-size: 25px; font-family: "Libre Franklin", sans-serif; font-weight: 700; 
+}
+
+
+
+
+/* LOGO */
+.logo {
+  width: 10%; height: auto; left: 2%; top: 2%; position: absolute;
+}
+
+
+
+
+/* HOT DOG PAGE TEXT+BOX STYLE*/
+.HDh1 {
+  left: 390px; top: 70px; position: absolute; text-align: center; color: black; font-size: 70px; font-family: "Libre Franklin", sans-serif; font-weight: 700; 
+}
+
+.HDdescription {
+  width: 1130px; left: 45px; top: 400px; position: fixed; color: black; font-size: 24px; font-family: '"Libre Franklin", sans-serif'; font-weight: 400;
+}
+
+.HDbox {
+  width: 100%; height: 346px; left: 0px; top: 390px; position: absolute; background: rgba(255, 255, 255, 0.90);
+}
+
+.HDpng {
+  width: 800px; height: 250px; left: 740px; top: 720px; position: fixed; transform: rotate(-31.71deg); transform-origin: 0 0;
+}
+
+.RKpng {
+  width: 540px; height: 428px; left: 890px; top: 390px; position: fixed;
+}
+
+.RKh1 {
+  left: 375px; top: 70px; position: absolute; text-align: center; color: black; font-size: 70px; font-family: "Libre Franklin", sans-serif; font-weight: 700; 
+}
+
+.SFpng {
+  width: 614.93px; height: 336.36px; left: 850px; top: 480px; position: fixed; transform: rotate(-9.69deg); transform-origin: 0 0;
+
+}
+
+.SFh1 {
+  left: 300px; top: 70px; position: absolute; text-align: center; color: black; font-size: 70px; font-family: "Libre Franklin", sans-serif; font-weight: 700; 
+}
+
+
+
+
+
+/* NAVIGATION MENUES */
+.aboutus {
+  width: 180px; height: 62px; left: 143px; top: 248px; position: absolute; background: white; border-radius: 30px; border: 3px #D05D5D solid;
+}
+
+.aboutustext {
+  width: 141px; height: 30px; left: 162px; top: 240px; position: absolute; text-align: center; color: black; font-size: 25px; font-family: "Libre Franklin", sans-serif; font-weight: 400;
+}
+
+.menu {
+  width: 180px; height: 62px; left: 377px; top: 248px; position: absolute; background: white; border-radius: 30px; border: 3px #D05D5D solid;
+}
+
+.menutext {
+  width: 67px; height: 30px; left: 434px; top: 240px; position: absolute; text-align: center; color: black; font-size: 25px; font-family: "Libre Franklin", sans-serif; font-weight: 400; 
+}
+
+.reviews {
+  width: 180px; height: 62px; left: 610px; top: 248px; position: absolute; background: white; border-radius: 30px; border: 3px #D05D5D solid;
+}
+
+.reviewstext {
+  width: 97px; height: 30px; left: 652px; top: 240px; position: absolute; text-align: center; color: black; font-size: 25px; font-family: "Libre Franklin", sans-serif; font-weight: 400; 
+}
+
+.photos {
+  width: 180px; height: 62px; left: 844px; top: 248px; position: absolute; background: white; border-radius: 30px; border: 3px #D05D5D solid;
+}
+
+.photostext {
+  width: 119px; height: 30px; left: 874px; top: 240px; position: absolute; text-align: center; color: black; font-size: 25px; font-family: "Libre Franklin", sans-serif; font-weight: 400; 
+}
+
+.info {
+  width: 180px; height: 62px; left: 1077px; top: 248px; position: absolute; background: white; border-radius: 30px; border: 3px #D05D5D solid;
+}
+
+.infotext {
+  width: 46px; height: 30px; left: 1145px; top: 240px; position: absolute; text-align: center; color: black; font-size: 25px; font-family: "Libre Franklin", sans-serif; font-weight: 400; 
+}
+
+
+
+
+
+/* REVIEWS */
+.date1 {
+  left: 198px; top: 420px; position: absolute; text-align: center; color: black; font-size: 10px; font-family: Inter; font-weight: 400; 
+}
+
+.title1 {
+  left: 83px; top: 443px; position: absolute; text-align: center; color: black; font-size: 15px; font-family: Inter; font-weight: 700; 
+}
+
+.text1 {
+  width: 455px; left: 83px; top: 472px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 400; 
+}
+
+.date2 {
+  left: 197px; top: 588px; position: absolute; text-align: center; color: black; font-size: 10px; font-family: Inter; font-weight: 400; 
+}
+
+.title2 {
+  left: 83px; top: 615px; position: absolute; text-align: center; color: black; font-size: 15px; font-family: Inter; font-weight: 700; 
+}
+
+.text2 {
+  width: 455px; left: 83px; top: 644px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 400; 
+}
+
+.date3 {
+  left: 752px; top: 420px; position: absolute; text-align: center; color: black; font-size: 10px; font-family: Inter; font-weight: 400; 
+}
+
+.title3 {
+  left: 639px; top: 443px; position: absolute; text-align: center; color: black; font-size: 15px; font-family: Inter; font-weight: 700; 
+}
+
+.text3 {
+  width: 455px; left: 639px; top: 472px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 400; 
+}
+
+.date4 {
+  left: 751px; top: 518px; position: absolute; text-align: center; color: black; font-size: 10px; font-family: Inter; font-weight: 400; 
+}
+
+.title4 {
+  left: 639px; top: 542px; position: absolute; text-align: center; color: black; font-size: 15px; font-family: Inter; font-weight: 700; 
+}
+
+.text4 {
+  width: 455px; left: 639px; top: 570px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 400; 
+}
+
+.date5 {
+  left: 752px; top: 620px; position: absolute; text-align: center; color: black; font-size: 10px; font-family: Inter; font-weight: 400; 
+}
+
+.title5 {
+  left: 642px; top: 643px; position: absolute; text-align: center; color: black; font-size: 15px; font-family: Inter; font-weight: 700; 
+}
+
+.text5 {
+  width: 467px; left: 639px; top: 672px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 400; 
+}
+
+
+
+
+
+/* STARS */
+.HDyellowstar1 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 416px; left: 83px; 
+}
+
+.HDyellowstar2 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 416px; left: 103px; 
+}
+
+.HDyellowstar3 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 416px; left: 123px; 
+}
+
+.HDyellowstar4 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 416px; left: 143px; 
+}
+
+.HDgreystar5 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #8D8D8D; left: 46px; top: 416px; overflow: visible; position: absolute; top: 416px; left: 163px; 
+}
+
+.HDyellowstar6 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 584px; left: 83px; 
+}
+
+.HDyellowstar7 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 584px; left: 103px; 
+}
+
+.HDyellowstar8 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 584px; left: 123px; 
+}
+
+.HDgreystar9 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #8D8D8D; left: 46px; top: 416px; overflow: visible; position: absolute; top: 584px; left: 143px; 
+}
+
+.HDgreystar10 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #8D8D8D; left: 46px; top: 416px; overflow: visible; position: absolute; top: 584px; left: 163px; 
+}
+
+.HDyellowstar11 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 416px; left: 639px; 
+}
+
+.HDyellowstar12 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 416px; left: 659px; 
+}
+
+.HDyellowstar13 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 416px; left: 679px; 
+}
+
+.HDyellowstar14 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 416px; left: 699px; 
+}
+
+.HDyellowstar15 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 416px; left: 719px; 
+}
+
+.HDyellowstar16 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 514px; left: 639px; 
+}
+
+.HDyellowstar17 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 514px; left: 659px; 
+}
+
+.HDyellowstar18 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 514px; left: 679px; 
+}
+
+.HDyellowstar19 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 514px; left: 699px; 
+}
+
+.HDyellowstar20 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 514px; left: 719px; 
+}
+
+.HDyellowstar21 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 616px; left: 639px; 
+}
+
+.HDgreystar22 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #8D8D8D; left: 46px; top: 416px; overflow: visible; position: absolute; top: 616px; left: 659px; 
+}
+
+.HDgreystar23 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #8D8D8D; left: 46px; top: 416px; overflow: visible; position: absolute; top: 616px; left: 679px; 
+}
+
+.HDgreystar24 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #8D8D8D; left: 46px; top: 416px; overflow: visible; position: absolute; top: 616px; left: 699px; 
+}
+
+.HDgreystar25 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #8D8D8D; left: 46px; top: 416px; overflow: visible; position: absolute; top: 616px; left: 719px; 
+}
+
+.RKyellowstar5 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 416px; left: 163px; 
+}
+
+.RKyellowstar22 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 616px; left: 659px; 
+}
+
+.SFyellowstar9 {
+    width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 584px; left: 143px; 
+}
+
+.SFgreystar15 {
+    width: 20px; height: 20px; flex-shrink: 0; fill: #8D8D8D; left: 46px; top: 416px; overflow: visible; position: absolute; top: 416px; left: 719px; 
+}
+
+.SFyellowstar23 {
+    width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 616px; left: 679px; 
+}
+
+.SFyellowstar24 {
+    width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 616px; left: 699px; 
+}
+
+.SFyellowstar25 {
+  width: 20px; height: 20px; flex-shrink: 0; fill: #F0CE1B; left: 46px; top: 416px; overflow: visible; position: absolute; top: 616px; left: 719px; 
+}
+
+
+
+
+
+/* INFO PAGE */
+.openinghours {
+  width: 671px; left: 83px; top: 647px; position: absolute; color: black; font-size: 20px; font-family: Lbre Franklin; font-weight: 400; 
+}
+
+.mainones {
+  width: 761px; left: 83px; top: 443px; position: absolute; color: black; font-size: 20px; font-family: "Libre Franklin", sans-serif; font-weight: 400; 
+}
+
+.contact {
+  width: 691px; left: 83px; top: 545px; position: absolute; color: black; font-size: 20px; font-family: "Libre Franklin", sans-serif; font-weight: 400;
+}
+
+.map {
+  width: 339px; height: 268px; left: 950px; top: 429px; position: absolute; border-radius: 24px;
+}
+
+.address {
+  width: 844px; left: 83px; top: 449px; position: absolute; color: black; font-size: 20px; font-family: "Libre Franklin", sans-serif; font-weight: 400; 
+}
+
+.RKcontact {
+  left: 83px; top: 517px; position: absolute; color: black; font-size: 20px; font-family: "Libre Franklin", sans-serif; font-weight: 400; 
+}
+
+.RKopeninghours {
+  left: 83px; top: 653px; position: absolute; color: black; font-size: 20px; font-family: "Libre Franklin", sans-serif; font-weight: 400; 
+}
+
+
+
+
+
+/* JAVASCRIPT ALERT BUTTON */
+
+#myModal {
+  display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0.4); padding-top: 40px;
+}
+
+.modal-content {
+  background-color: #fefefe; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 30%;
+}
+
+.close {
+  color: #aaa; float: right; font-size: 28px; font-weight: bold; padding-right: 5%;
+}
+
+.close:hover,
+.close:focus {
+  color: black; text-decoration: none; cursor: pointer;
+}
+
+.modalallow {
+  color: white; background-color: #1C73E8; border: 1cm; border-radius: 0%; height: 30px; width: 60px; margin-right: 4%;
+}
+
+.modaldeny {
+  color: #1C73E8; background-color: #e0dede; border: 1cm; border-radius: 0%; height: 30px; width: 60px;
+}
+
+.modalbuttons {
+  display: flex; flex-direction: row; justify-content: flex-end; padding-right: 12%;
+}
+
+
+
+
+/* MENUES */
+
+.burger {
+  width: 525px; left: 200px; top: 420px; position: absolute; color: black; font-size: 20px; font-family: "Libre Franklin", sans-serif; font-weight: 400; 
+}
+
+.polser {
+  width: 525px; left: 850px; top: 427px; position: absolute; color: black; font-size: 20px; font-family: "Libre Franklin", sans-serif; font-weight: 400; 
+}
+
+.lunch {
+  width: 525px; left: 240px; top: 454px; position: absolute; color: black; font-size: 20px; font-family: "Libre Franklin", sans-serif; font-weight: 400;
+}
+
+.dinner {
+  width: 525px; left: 760px; top: 454px; position: absolute; color: black; font-size: 20px; font-family: "Libre Franklin", sans-serif; font-weight: 400; 
+}
+
+.places {
+  width: 525px; left: 377px; top: 416px; position: absolute; text-align: center; color: black; font-size: 24px; font-family: "Libre Franklin", sans-serif; font-weight: 700; 
+}
+
+.SF1 {
+  width: 303px; left: 223px; top: 457px; position: absolute; color: black; font-size: 20px; font-family: "Libre Franklin", sans-serif; font-weight: 400; 
+}
+
+.SF2 {
+  width: 303px; left: 598px; top: 457px; position: absolute; color: black; font-size: 20px; font-family: "Libre Franklin", sans-serif; font-weight: 400; 
+}
+
+.SF3 {
+  width: 303px; left: 940px; top: 457px; position: absolute; color: black; font-size: 20px; font-family: "Libre Franklin", sans-serif; font-weight: 400; 
+}
+
+
+
+
+
+/* PHOTOS */
+
+.photo1 {
+  width: 250px; height: 333.40px; left: 1010px; top: 380px; position: absolute; border-radius: 24px;
+}
+
+.photo2 {
+  width: 250px; height: 333.33px; left: 146px; top: 380px; position: absolute; border-radius: 24px;
+}
+
+.photo3 {
+  width: 250px; height: 333.28px; left: 434px; top: 380px; position: absolute; border-radius: 24px;
+}
+
+.photo4 {
+  width: 250px; height: 333.33px; left: 722px; top: 380px; position: absolute; border-radius: 24px;
+}
+
