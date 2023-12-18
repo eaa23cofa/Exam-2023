@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="css/css.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <div class="background">
+
+
+    
+    <!-- BACKGROUND PIC -->
+      <!-- <img class="background" src="images/background.jpeg" alt="background"> -->
+
+
+
+    <!-- TITLE -->
+    <div class="titles">
+    <h1 class="HPh1">HUNGRY IN AARHUS?</h1>
+
+    <!-- SECOND LINE -->
+    <h2 class="HPh2">Check this guide out!</h2>
+    </div>
+
+
+<article class="homepage-cards">
+  <article class="homepage-card bg1">
+    <a href="hotdogstands.html"><h3 class="card-banner">Street food</h3></a>
+  </article>
+  <article class="homepage-card bg2">
+    <a href="raadhuskafeen.html"><h3 class="card-banner">Traditional</h3></a>
+  </article>
+  <article class="homepage-card bg3">
+    <a href="aarhusstreetfood.html"><h3 class="card-banner">International</h3></a>
+  </article>
+</article>
+
+    <!-- LOGO -->
+    <a href="index.html">
+      <img class="logo" src="images/aarhus kommune.png">
+    </a>
+
+
+  </div>
+
+  <!-- ALERT MESSAGE -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <p>This page would like to access your location.</p>
+      <div class="modalbuttons">
+      <button class="modalallow" onclick="allowAction()">Allow</button>
+      <button class="modaldeny" onclick="denyAction()">Deny</button>
+    </div>
+    </div>
+  </div>
+
+   <script src="js/js.js"></script>
+</body>
+</html>
